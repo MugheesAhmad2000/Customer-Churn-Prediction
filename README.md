@@ -26,26 +26,27 @@ By seeing the box plots concluded that there were no outliers. The computed Corr
  
 Following were the insights from the heatmap:
 
-Variables	Values	Description
-Gender:	-0.01	negligible correlation
-SeniorCitizen:	0.15	weak +ve correlation
-Partner:	-0.15	weak -ve correlation
-Dependents:	-0.16	weak +ve correlation
-tenure:	-0.35	weak +ve correlation
-PhoneService:	0.01	negligible corelation
-MultipleLines:	0.04	negligible corelation
-InternetService:	-0.05	negligible corelation
-OnlineSecurity:	-0.29	weak -ve correlation
-OnlineBackup:	-0.19	weak -ve correlation
-DeviceProtection:	-0.18	weak -ve correlation
-TechSupport:	-0.28	weak -ve correlation
-StreamingTV:	-0.03	negligible correlation
-StreamingMovies:	-0.04	negligible correlation
-Contract:	-0.4	strongest -ve correlation
-PaperlessBilling:	0.19	weak +ve correlation
-PaymentMethod: 	0.11	weak +ve correlation
-MonthlyCharges: 	0.19	weak +ve correlation
-TotalCharges:	0.01	negligible corelation
+|Variables|	Values	|Description|
+|:---  | :---: |  ---:|
+|Gender:|	-0.01	|negligible correlation|
+|SeniorCitizen:|	0.15	|weak +ve correlation|
+|Partner:|	-0.15	|weak -ve correlation|
+|Dependents:|	-0.16	|weak +ve correlation|
+|tenure:|	-0.35	|weak +ve correlation|
+|PhoneService:|	0.01	|negligible corelation|
+|MultipleLines:|	0.04	|negligible corelation|
+|InternetService:|	-0.05	|negligible corelation|
+|OnlineSecurity:|	-0.29	|weak -ve correlation|
+|OnlineBackup:|	-0.19	|weak -ve correlation|
+|DeviceProtection:|	-0.18	|weak -ve correlation|
+|TechSupport:|	-0.28	|weak -ve correlation|
+|StreamingTV:|	-0.03	|negligible correlation|
+|StreamingMovies:|	-0.04	|negligible correlation|
+|Contract:|	-0.4	|strongest -ve correlation|
+|PaperlessBilling:|	0.19	|weak +ve correlation|
+|PaymentMethod:| 	0.11	|weak +ve correlation|
+|MonthlyCharges:| 	0.19	|weak +ve correlation|
+|TotalCharges:|	0.01	|negligible corelation|
 So as the results it is decided that **Contract, tenure, OnlineSecurity, OnlineBackup, DeviceProtection, TechSupport, Dependents, MonthlyCharges, PaperlessBilling, PaymentMethod** are the most appropriate features for modeling.
 
 Then draw the PCA_biplot to visualize the relationships and patterns among the variables The insights from following graph were:
