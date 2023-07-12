@@ -110,225 +110,188 @@ The models which I have choices are:
 I have trained and tested these models on both unbalanced and balanced data so compare the results.
 
 *	Logistic Regression:
-**	Unbalanced Dataset:
+* * Unbalanced Dataset:
 The results of testing were:
 
  ![image](https://github.com/MugheesAhmad2000/Customer-Churn-Prediction/assets/61706830/1e6e6910-881c-4fec-83f6-938c0dc465e1)
 
-╒═══════════╤══════════╕
-│ Metric    │    Score │
-╞═══════════╪══════════╡
-│ Accuracy  │ 0.827389 │
-├───────────┼──────────┤
-│ Precision │ 0.638596 │
-├───────────┼──────────┤
-│ Recall    │ 0.566978 │
-├───────────┼──────────┤
-│ F1 Score  │ 0.60066  │
-╘═══════════╧══════════╛
+| Metric    |    Score |
+|:---|----:|
+| Accuracy  | 0.827389  |
+| Precision | 0.638596 |
+| Recall    | 0.566978 |
+| F1 Score  | 0.60066 |
 
-**	Balanced Dataset:
+* *	Balanced Dataset:
+  
 The results of testing were:
 
  ![image](https://github.com/MugheesAhmad2000/Customer-Churn-Prediction/assets/61706830/77c476bb-f0c1-4404-aa56-ddde80c7bfb3)
 
-╒═══════════╤══════════╕
-│ Metric    │    Score │
-╞═══════════╪══════════╡
-│ Accuracy  │ 0.753923 │
-├───────────┼──────────┤
-│ Precision │ 0.476471 │
-├───────────┼──────────┤
-│ Recall    │ 0.757009 │
-├───────────┼──────────┤
-│ F1 Score  │ 0.584838 │
-╘═══════════╧══════════╛
+| Metric    |    Score |
+|:---|----:|
+| Accuracy  | 0.753923  |
+| Precision | 0.476471 |
+| Recall    | 0.757009 |
+| F1 Score  | 0.584838 |
 
 *	Random Forest
-**	Unbalanced Dataset:
+* *	Unbalanced Dataset:
+    
 The results of testing were:
 
  ![image](https://github.com/MugheesAhmad2000/Customer-Churn-Prediction/assets/61706830/04fac646-d287-4a67-bb99-aef67b6d9e96)
 
-╒═══════════╤══════════╕
-│ Metric    │    Score │
-╞═══════════╪══════════╡
-│ Accuracy  │ 0.792439 │
-├───────────┼──────────┤
-│ Precision │ 0.55102  │
-├───────────┼──────────┤
-│ Recall    │ 0.504673 │
-├───────────┼──────────┤
-│ F1 Score  │ 0.526829 │
-╘═══════════╧══════════╛
+| Metric    |    Score |
+|:---|----:|
+| Accuracy  | 0.792439  |
+| Precision | 0.55102 |
+| Recall    | 0.504673 |
+| F1 Score  | 0.526829 |
 
-**	Balanced Dataset:
+* *	Balanced Dataset:
+    
 The results of testing were:
 
 ![image](https://github.com/MugheesAhmad2000/Customer-Churn-Prediction/assets/61706830/ad77168d-8298-4949-b21d-77bb6cdf43fd)
- 
-╒═══════════╤══════════╕
-│ Metric    │    Score │
-╞═══════════╪══════════╡
-│ Accuracy  │ 0.776034 │
-├───────────┼──────────┤
-│ Precision │ 0.509044 │
-├───────────┼──────────┤
-│ Recall    │ 0.613707 │
-├───────────┼──────────┤
-│ F1 Score  │ 0.556497 │
-╘═══════════╧══════════╛
+
+| Metric    |    Score |
+|:---|----:|
+| Accuracy  | 0.776034  |
+| Precision | 0.509044 |
+| Recall    | 0.613707 |
+| F1 Score  | 0.556497 |
+
 *	Support Vector Classifier
-**	Unbalanced Dataset:
+* *	Unbalanced Dataset:
+    
 The results of testing were:
 
 ![image](https://github.com/MugheesAhmad2000/Customer-Churn-Prediction/assets/61706830/1990bc7b-eb80-407b-8d00-7b2140f7bbd0)
- 
-╒═══════════╤══════════╕
-│ Metric    │    Score │
-╞═══════════╪══════════╡
-│ Accuracy  │ 0.821683 │
-├───────────┼──────────┤
-│ Precision │ 0.678392 │
-├───────────┼──────────┤
-│ Recall    │ 0.420561 │
-├───────────┼──────────┤
-│ F1 Score  │ 0.519231 │
-╘═══════════╧══════════╛
 
-**	Balanced Dataset:
+ | Metric    |    Score |
+|:---|----:|
+| Accuracy  | 0.821683  |
+| Precision | 0.678392 |
+| Recall    | 0.420561 |
+| F1 Score  | 0.519231 |
+
+* *	Balanced Dataset:
 The results of testing were:
 
  ![image](https://github.com/MugheesAhmad2000/Customer-Churn-Prediction/assets/61706830/8e917c30-90e2-427b-ab10-0193e94f8c52)
 
-╒═══════════╤══════════╕
-│ Metric    │    Score │
-╞═══════════╪══════════╡
-│ Accuracy  │ 0.731098 │
-├───────────┼──────────┤
-│ Precision │ 0.44964  │
-├───────────┼──────────┤
-│ Recall    │ 0.778816 │
-├───────────┼──────────┤
-│ F1 Score  │ 0.570125 │
-╘═══════════╧══════════╛
+ | Metric    |    Score |
+|:---|----:|
+| Accuracy  | 0.731098  |
+| Precision | 0.44964 |
+| Recall    | 0.778816 |
+| F1 Score  | 0.570125 |
 
 After comparing the results, the model which performed the best was Logistic Regression with unbalanced dataset with an accuracy of 82.73%. After than was Logistic Regression with balanced dataset with an accuracy of 82.16%. Which means that logistic performed god in both conditions with balance and unbalance dataset.
 
 ## Optimization:
 For optimization I used GridSearchCV to get the set of parameters with the best performance for that specific model and specific dataset.
-•	Logistic Regression for unbalanced dataset:
+*	Logistic Regression for unbalanced dataset:
+  
+ Best Parameters: {'C': 0.5, 'penalty': 'l2', 'solver': 'liblinear'}
+*	Logistic Regression for balanced dataset:
+  
 Best Parameters: {'C': 0.5, 'penalty': 'l2', 'solver': 'liblinear'}
-•	Logistic Regression for balanced dataset:
-Best Parameters: {'C': 0.5, 'penalty': 'l2', 'solver': 'liblinear'}
-•	Random forest for unbalanced dataset:
+*	Random forest for unbalanced dataset:
+  
 Best Parameters: {'max_depth': 10, 'max_features': 'auto', 'min_samples_leaf': 4, 'min_samples_split': 10, 'n_estimators': 500}
-•	Random forest for balanced dataset:
+*	Random forest for balanced dataset:
+  
 Best Parameters: {'max_depth': 20, 'max_features': 'auto', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 200}
-•	SVC for unbalanced dataset:
+*	SVC for unbalanced dataset:
+  
 Best Parameters: {'C': 10.0, 'gamma': 'scale', 'kernel': 'linear'}
-•	SVC for balanced dataset:
+*	SVC for balanced dataset:
+  
 Best Parameters: {'C': 10.0, 'gamma': 'auto', 'kernel': 'rbf'}
 
 
 ## Models Training after Optimization:
-•	Logistic Regression:
-o	Unbalanced Dataset:
+*	Logistic Regression:
+* *	Unbalanced Dataset:
+    
 The results of testing were:
 
  ![image](https://github.com/MugheesAhmad2000/Customer-Churn-Prediction/assets/61706830/98e94bbb-e253-41f8-b195-e780e3dafbf0)
 
-╒═══════════╤══════════╕
-│ Metric    │    Score │
-╞═══════════╪══════════╡
-│ Accuracy  │ 0.82525  │
-├───────────┼──────────┤
-│ Precision │ 0.631034 │
-├───────────┼──────────┤
-│ Recall    │ 0.570093 │
-├───────────┼──────────┤
-│ F1 Score  │ 0.599018 │
-╘═══════════╧══════════╛
-o	Balanced Dataset:
+| Metric    |    Score |
+|:---|----:|
+| Accuracy  | 0.82525  |
+| Precision | 0.631034 |
+| Recall    | 0.570093 |
+| F1 Score  | 0.599018 |
+
+* *	Balanced Dataset:
+  
 The results of testing were:
 
  ![image](https://github.com/MugheesAhmad2000/Customer-Churn-Prediction/assets/61706830/eefd8134-6a3e-47c8-ac6d-f6230bb42107)
 
-╒═══════════╤══════════╕
-│ Metric    │    Score │
-╞═══════════╪══════════╡
-│ Accuracy  │ 0.75321  │
-├───────────┼──────────┤
-│ Precision │ 0.475538 │
-├───────────┼──────────┤
-│ Recall    │ 0.757009 │
-├───────────┼──────────┤
-│ F1 Score  │ 0.584135 │
-╘═══════════╧══════════╛
-•	Random Forest
-o	Unbalanced Dataset:
+| Metric    |    Score |
+|:---|----:|
+| Accuracy  | 0.75321  |
+| Precision | 0.475538|
+| Recall    | 0.757009 |
+| F1 Score  | 0.584135 |
+
+*	Random Forest
+* *	Unbalanced Dataset:
+  
 The results of testing were:
 
  ![image](https://github.com/MugheesAhmad2000/Customer-Churn-Prediction/assets/61706830/909a8675-0cd6-4afe-a78e-c79431084637)
 
-╒═══════════╤══════════╕
-│ Metric    │    Score │
-╞═══════════╪══════════╡
-│ Accuracy  │ 0.821683 │
-├───────────┼──────────┤
-│ Precision │ 0.629091 │
-├───────────┼──────────┤
-│ Recall    │ 0.538941 │
-├───────────┼──────────┤
-│ F1 Score  │ 0.580537 │
-╘═══════════╧══════════╛
-o	Balanced Dataset:
+| Metric    |    Score |
+|:---|----:|
+| Accuracy  | 0.821683  |
+| Precision | 0.629091|
+| Recall    | 0.538941 |
+| F1 Score  | 0.580537 |
+
+* *	Balanced Dataset:
+    
 The results of testing were:
 
  ![image](https://github.com/MugheesAhmad2000/Customer-Churn-Prediction/assets/61706830/670517b6-eaf3-4f12-afcd-5c41c9d69516)
 
-╒═══════════╤══════════╕
-│ Metric    │    Score │
-╞═══════════╪══════════╡
-│ Accuracy  │ 0.773894 │
-├───────────┼──────────┤
-│ Precision │ 0.505181 │
-├───────────┼──────────┤
-│ Recall    │ 0.607477 │
-├───────────┼──────────┤
-│ F1 Score  │ 0.551627 │
-╘═══════════╧══════════╛
-•	Support Vector Classifier
-o	Unbalanced Dataset:
+| Metric    |    Score |
+|:---|----:|
+| Accuracy  | 0.773894  |
+| Precision | 0.505181|
+| Recall    | 0.607477 |
+| F1 Score  | 0.551627 |
+
+*	Support Vector Classifier
+* *	Unbalanced Dataset:
+    
 The results of testing were:
 
  ![image](https://github.com/MugheesAhmad2000/Customer-Churn-Prediction/assets/61706830/b8e6014e-1dae-4756-bda1-99cb194cdaad)
 
-╒═══════════╤══════════╕
-│ Metric    │    Score │
-╞═══════════╪══════════╡
-│ Accuracy  │ 0.823823 │
-├───────────┼──────────┤
-│ Precision │ 0.628472 │
-├───────────┼──────────┤
-│ Recall    │ 0.563863 │
-├───────────┼──────────┤
-│ F1 Score  │ 0.594417 │
-╘═══════════╧══════════╛
-o	Balanced Dataset:
+| Metric    |    Score |
+|:---|----:|
+| Accuracy  | 0.823823  |
+| Precision | 0.628472|
+| Recall    | 0.563863 |
+| F1 Score  | 0.594417|
+
+* *	Balanced Dataset:
+    
 The results of testing were:
 
  ![image](https://github.com/MugheesAhmad2000/Customer-Churn-Prediction/assets/61706830/0d8d1014-3f97-42c5-bca8-b32edd8b6a78)
 
-╒═══════════╤══════════╕
-│ Metric    │    Score │
-╞═══════════╪══════════╡
-│ Accuracy  │ 0.740371 │
-├───────────┼──────────┤
-│ Precision │ 0.460838 │
-├───────────┼──────────┤
-│ Recall    │ 0.788162 │
-├───────────┼──────────┤
-│ F1 Score  │ 0.581609 │
-╘═══════════╧══════════╛
+| Metric    |    Score |
+|:---|----:|
+| Accuracy  | 0.740371  |
+| Precision | 0.460838|
+| Recall    | 0.788162 |
+| F1 Score  | 0.581609|
+
 After comparing the results, the model which performed the best was Logistic Regression with unbalanced dataset with an accuracy of 82.53%. But SVC has also increased its accuracy to 82.3%.
