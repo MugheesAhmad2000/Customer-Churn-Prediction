@@ -47,42 +47,53 @@ Following were the insights from the heatmap:
 |PaymentMethod:| 	0.11	|weak +ve correlation|
 |MonthlyCharges:| 	0.19	|weak +ve correlation|
 |TotalCharges:|	0.01	|negligible corelation|
+
 So as the results it is decided that **Contract, tenure, OnlineSecurity, OnlineBackup, DeviceProtection, TechSupport, Dependents, MonthlyCharges, PaperlessBilling, PaymentMethod** are the most appropriate features for modeling.
 
 Then draw the PCA_biplot to visualize the relationships and patterns among the variables The insights from following graph were:
-PC1	tenure	0.433686	best
-PC2	MonthlyCharges  	0.512852 	 best
-PC3  	InternetService	 -0.663862	  best
-PC4   	Dependents  	0.623286 	 best
-PC5  	StreamingTV 	 0.384394 	 best
-PC6  	TotalCharges 	-0.526037 	 best
-PC7    	gender 	-0.865638 	 best
-PC8   	PaymentMethod 	 0.598075	  best
-PC9  	OnlineBackup 	-0.670714 	 best
-PC10  	OnlineSecurity	 -0.442524  	best
-PC8 	SeniorCitizen 	 0.527951 	 weak
-PC4 	Partner 	 0.616343 	 weak
-PC3    	PhoneService	 -0.571867  	weak
-PC10	MultipleLines 	-0.357936  	weak
-PC1	DeviceProtection 	 0.287569  	weak
-PC1 	TechSupport	  0.270524  	weak
-PC5 	StreamingMovies	  0.369578 	 weak
-PC1          	Contract  	0.394960 	weak
-PC9  	PaperlessBilling	 -0.384567 	weak
+| PC | Variable |Value |Insights|
+|:---|:---:|:---:|---:|
+|PC1	|tenure	|0.433686	| best|
+|PC2	|MonthlyCharges | 	0.512852 	| best|
+|PC3  	|InternetService	| -0.663862	|  best|
+|PC4   	|Dependents  |	0.623286 	| best|
+|PC5  	|StreamingTV 	| 0.384394 	| best|
+|PC6  	|TotalCharges 	|-0.526037 |	 best|
+|PC7    |	gender |	-0.865638 	| best|
+|PC8   |	PaymentMethod |	 0.598075	|  best|
+|PC9  	|OnlineBackup 	|-0.670714 	 |best|
+|PC10  |	OnlineSecurity|	 -0.442524|  	best|
+|PC8 	|SeniorCitizen 	 |0.527951 |	 weak|
+|PC4 	|Partner 	 |0.616343 	| weak|
+|PC3   | 	PhoneService	| -0.571867  |	weak|
+|PC10	|MultipleLines 	|-0.357936  	|weak|
+|PC1	|DeviceProtection |	 0.287569 | 	weak|
+|PC1 	|TechSupport	  |0.270524  	|weak|
+|PC5 	|StreamingMovies	|  0.369578 	| weak|
+|PC1  |        	Contract | 	0.394960 	|weak|
+|PC9 | 	PaperlessBilling	| -0.384567 |	weak|
 
 ![image](https://github.com/MugheesAhmad2000/Customer-Churn-Prediction/assets/61706830/f648c608-aef2-43dd-b207-9f55112b9cc3)
 
 ## Splitting the Dataset:
 Selecting the features based on the results of Correlation and PCA results for training the models. The features which I choose were:
- 
-tenure	MonthlyCharges
-OnlineBackup	InternetService
-Dependents	PhoneService
-Gender	PaymentMethod
-DeviceProtection	TechSupport
-PaperlessBilling	Partner
-SeniorCitizen	Contract
-OnlineSecurity
+|Choosen Features|
+|:------:|
+|tenure	|
+|MonthlyCharges|
+|OnlineBackup	|
+|InternetService|
+|Dependents	|
+|PhoneService|
+|Gender	|
+|PaymentMethod|
+|DeviceProtection	|
+|TechSupport|
+|PaperlessBilling	|
+|Partner|
+|SeniorCitizen	|
+|Contract|
+|OnlineSecurity|
 
 And split the data into **80 20 ratios** for training and testing. Then created another dataset in which the balanced distribution of data by using sampling up technique as the number of yes in Churn were less than nos.
 So, I have used SMOTE algorithm for sampling up. 
@@ -92,14 +103,14 @@ So, I have used SMOTE algorithm for sampling up.
  
 ## Models Training:
 The models which I have choices are:
-•	Logistic Regression
-•	Random Forest
-•	Support Vector Classifier
+*	Logistic Regression
+* Random Forest
+*	Support Vector Classifier
 
 I have trained and tested these models on both unbalanced and balanced data so compare the results.
 
-•	Logistic Regression:
-o	Unbalanced Dataset:
+*	Logistic Regression:
+**	Unbalanced Dataset:
 The results of testing were:
 
  ![image](https://github.com/MugheesAhmad2000/Customer-Churn-Prediction/assets/61706830/1e6e6910-881c-4fec-83f6-938c0dc465e1)
@@ -116,7 +127,7 @@ The results of testing were:
 │ F1 Score  │ 0.60066  │
 ╘═══════════╧══════════╛
 
-o	Balanced Dataset:
+**	Balanced Dataset:
 The results of testing were:
 
  ![image](https://github.com/MugheesAhmad2000/Customer-Churn-Prediction/assets/61706830/77c476bb-f0c1-4404-aa56-ddde80c7bfb3)
@@ -133,8 +144,8 @@ The results of testing were:
 │ F1 Score  │ 0.584838 │
 ╘═══════════╧══════════╛
 
-•	Random Forest
-o	Unbalanced Dataset:
+*	Random Forest
+**	Unbalanced Dataset:
 The results of testing were:
 
  ![image](https://github.com/MugheesAhmad2000/Customer-Churn-Prediction/assets/61706830/04fac646-d287-4a67-bb99-aef67b6d9e96)
@@ -151,7 +162,7 @@ The results of testing were:
 │ F1 Score  │ 0.526829 │
 ╘═══════════╧══════════╛
 
-o	Balanced Dataset:
+**	Balanced Dataset:
 The results of testing were:
 
 ![image](https://github.com/MugheesAhmad2000/Customer-Churn-Prediction/assets/61706830/ad77168d-8298-4949-b21d-77bb6cdf43fd)
@@ -167,8 +178,8 @@ The results of testing were:
 ├───────────┼──────────┤
 │ F1 Score  │ 0.556497 │
 ╘═══════════╧══════════╛
-•	Support Vector Classifier
-o	Unbalanced Dataset:
+*	Support Vector Classifier
+**	Unbalanced Dataset:
 The results of testing were:
 
 ![image](https://github.com/MugheesAhmad2000/Customer-Churn-Prediction/assets/61706830/1990bc7b-eb80-407b-8d00-7b2140f7bbd0)
@@ -185,7 +196,7 @@ The results of testing were:
 │ F1 Score  │ 0.519231 │
 ╘═══════════╧══════════╛
 
-o	Balanced Dataset:
+**	Balanced Dataset:
 The results of testing were:
 
  ![image](https://github.com/MugheesAhmad2000/Customer-Churn-Prediction/assets/61706830/8e917c30-90e2-427b-ab10-0193e94f8c52)
